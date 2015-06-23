@@ -46,3 +46,27 @@
 .consultant {
   width: 15%;
 }
+
+figure.inline {
+    position: relative;
+}
+
+figure.inline img, figure.inline figcaption {
+    display: inline-block;
+}
+
+figure.inline img {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+figure.inline figcaption {
+    font-size: 0.5em;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}

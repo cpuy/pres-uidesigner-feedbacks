@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "gulp serve",
     "postinstall": "bower install",
-    "deploy": "gulp build && ./deploy.sh"
+    "deploy": "./deploy.sh"
   },
   "repository": {
     "type": "git",
